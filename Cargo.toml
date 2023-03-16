@@ -1,0 +1,15 @@
+[package]
+name = "updb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.39"
+arc-swap = "1.6.0"
+imbl = "2.0.0"
+tokio = { version = "1.26.0", features = ["sync"] }
+
+[dev-dependencies]
+tokio = { version = "1.26.0", features = ["rt", "macros"] }
